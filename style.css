@@ -1,3 +1,70 @@
 body {
-    background-color: green;
+
+    background-image: linear-gradient(to right, #6600cc, #94b1db);
+    background-size: cover;
+    background-position: center center;
+}
+
+.slashMenu {
+    background-color: #22174b;
+    height: 50px;
+    width: auto;
+    border-style: #fff;
+    border: 2px solid #aaaa;
+    border-bottom: none;
+
+    margin: 100px;
+    margin-top: 0px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+/*Iconon*/
+.iconPerson {
+    fill: #aaaa;
+}
+
+.iconBuscar {
+    fill: #aaaa;
+    position: right;
+}
+
+/*end iconos*/
+
+.slashSearch {
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+.fieldMenuText {
+    width: 500px;
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: 100px;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 18px;
+}
+
+.boxUser {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.buttomMenuSitio {
+    background-color: #3a2c69;
+    width: 170px;
+    height: 30px;
+    border: 2px solid #aaaa;
+    margin: 10px;
+    color: #aaaa;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 18px;
 }
