@@ -13,7 +13,6 @@ body {
     border: 2px solid #aaaa;
     border-bottom: none;
 
-    margin: 100px;
     margin-top: 0px;
     margin-right: 200px;
     margin-left: 200px;
@@ -58,7 +57,7 @@ body {
     margin-right: 10px;
 }
 
-.buttomMenuSitio {
+.buttomMenuUsuario {
     background-color: #3a2c69;
     width: 170px;
     height: 30px;
@@ -67,4 +66,70 @@ body {
     color: #aaaa;
     font-family: 'Pixelify Sans', cursive;
     font-size: 18px;
+}
+
+.buttomMenuUsuario:hover {
+    color: black;
+    background-color: #3df9ff;
+    border: 2px solid black;
+}
+
+.slashOption {
+
+    background-image: linear-gradient(to right, #6600cc, #94b1db);
+    background-size: cover;
+    background-position: center center;
+    height: 50px;
+    width: auto;
+    border-style: #fff;
+    border: 2px solid #aaaa;
+    margin-right: 200px;
+    margin-left: 200px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.slashObj1Option {
+    margin: 10px;
+
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 18px;
+    color: yellow;
+    trasition: 0, 3s;
+
+}
+
+.slashObj2Option {
+    margin: 10px;
+
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 18px;
+    color: yellow;
+    trasition: 0, 3s;
+
+}
+
+.slashObj3Option {
+    margin: 10px;
+
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 18px;
+    color: yellow;
+    trasition: 0, 3s;
+
+}
+
+.slashObj1Option:hover {
+    color: rgb(52, 192, 247);
+}
+
+.slashObj2Option:hover {
+    color: rgb(52, 192, 247)
+}
+
+.slashObj3Option:hover {
+    color: rgb(52, 192, 247)
 }
