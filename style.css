@@ -1,37 +1,42 @@
 body {
 
-    background-image: linear-gradient(to right, #6600cc, #94b1db);
+    background-image: linear-gradient(to right , #01004b, #000286 100%);
     background-size: cover;
     background-position: center center;
 }
 
 .slashMenu {
-    background-color: #22174b;
+    background-color: #180070;
     height: 50px;
     width: auto;
-    border-style: #fff;
-    border: 2px solid #aaaa;
-    border-bottom: none;
-
     margin-top: 0px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 0px;
+    margin-left: 0px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     overflow: hidden;
 }
 
 /*Iconon*/
 .iconPerson {
-    fill: #aaaa;
+    fill: #fdfdfdaa;
 }
 
 .iconBuscar {
-    fill: #aaaa;
+    fill: #fdfdfdaa;
     position: right;
 }
 
 /*end iconos*/
+.logo{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    margin: 10px;
+    font-size : 50px;
+    margin-top : 0px;
+    color : white ; 
+}
 
 .slashSearch {
     display: flex;
@@ -54,16 +59,18 @@ body {
     justify-content: space-evenly;
     margin: 50px;
     margin-top: 0px;
-    margin-right: 10px;
+    margin-right: 0%;
+    position: absolute;
+    right: 10px;
 }
 
 .buttomMenuUsuario {
     background-color: #3a2c69;
     width: 170px;
     height: 30px;
-    border: 2px solid #aaaa;
+    border: 2px solid #fdfdfdaa;
     margin: 10px;
-    color: #aaaa;
+    color: #fdfdfdaa;
     font-family: 'Pixelify Sans', cursive;
     font-size: 18px;
 }
@@ -75,61 +82,55 @@ body {
 }
 
 .slashOption {
+    /*donde estan las opcines de tienda y juegos de ps4*/
 
-    background-image: linear-gradient(to right, #6600cc, #94b1db);
+    background-image: linear-gradient(#003eb3, #3be0e6 100%);
     background-size: cover;
     background-position: center center;
     height: 50px;
-    width: auto;
-    border-style: #fff;
-    border: 2px solid #aaaa;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin: auto;
     overflow: hidden;
 
     display: flex;
-    justify-content: flex-start;
-
+    justify-content: center;
 }
 
 .slashObj1Option {
-    margin: 10px;
-
     font-family: 'Pixelify Sans', cursive;
-    font-size: 18px;
+    font-size: 30px;
     color: yellow;
     trasition: 0, 3s;
+    marign-right: 20px;
+    margin-left: 20px;
 
 }
 
 .slashObj2Option {
-    margin: 10px;
-
     font-family: 'Pixelify Sans', cursive;
-    font-size: 18px;
+    font-size: 30px;
     color: yellow;
     trasition: 0, 3s;
-
+    marign-right: 20px;
+    margin-left: 20px;
 }
 
 .slashObj3Option {
-    margin: 10px;
-
     font-family: 'Pixelify Sans', cursive;
-    font-size: 18px;
+    font-size: 30px;
     color: yellow;
     trasition: 0, 3s;
-
+    marign-right: 20px;
+    margin-left: 20px;
 }
 
 .slashObj1Option:hover {
-    color: rgb(52, 192, 247);
+    color: rgb(255, 0, 0); 
 }
 
 .slashObj2Option:hover {
-    color: rgb(52, 192, 247)
+    color: rgb(255, 0, 0); 
 }
 
 .slashObj3Option:hover {
-    color: rgb(52, 192, 247)
+    color: rgb(255, 0, 0); 
 }
